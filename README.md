@@ -1,4 +1,10 @@
 # GVLK Keys form Microsoft Official Website #
+  - https://learn.microsoft.com/en-us/deployoffice/vlactivation/gvlks
+  - https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
+  - https://technet.microsoft.com/en-us/library/jj612867.aspx
+  - https://technet.microsoft.com/en-us/library/dn385360(v=office.16).aspx
+  - https://technet.microsoft.com/en-us/library/dn385360.aspx
+  - https://technet.microsoft.com/en-us/library/ee624355(office.14).aspx
 
 ## Windows 10, 11 ##
   - Windows 10,11 Professional:W269N-WFGWX-YVC9B-4J6C9-T83GX
