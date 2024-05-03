@@ -6,13 +6,13 @@
   - https://technet.microsoft.com/en-us/library/dn385360.aspx
   - https://technet.microsoft.com/en-us/library/ee624355(office.14).aspx
 ## Cấu trúc lệnh kích hoạt windows KMS ##
+  - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
   slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
   slmgr /skms kms.xspace.in
   slmgr.vbs /xpr
   slmgr /ato
   ```
-
   - Thay key tương thích với windows cần kích hoạt!
 ## Windows 10, 11 ##
   - Windows 10,11 Professional:W269N-WFGWX-YVC9B-4J6C9-T83GX
