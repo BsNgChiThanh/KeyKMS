@@ -45,7 +45,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
   - Windows Server 2025 Standard TVRH6-WHNXV-R9WG3-9XRFY-MY832
   - Windows Server 2025 Datacenter D764K-2NDRG-47T6Q-P8T8W-YP6DF
   - Windows Server 2025 Azure Edition XGN3F-F394H-FD2MY-PP6FD-8MCRC
-## Windows Server, versions 20H2, 2004, 1909, 1903, and 1809##
+## Windows Server, versions 20H2, 2004, 1909, 1903, and 1809 ##
   - Windows Server Datacenter6NMRW-2C8FM-D24W7-TQWMY-CWH2D
   - Windows Server Standard N2KJX-J94YW-TQVFB-DG9YT-724CC
 ## Windows Server 2019 ##
