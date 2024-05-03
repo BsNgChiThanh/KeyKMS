@@ -1,16 +1,16 @@
 # GVLK Keys form Microsoft Official Website #
 
-## Windows 10 ##
-  - Windows 10 Professional:W269N-WFGWX-YVC9B-4J6C9-T83GX
-  - Windows 10 Professional N:MH37W-N47XK-V7XM9-C7227-GCQG9
-  - Windows 10 Enterprise:NPPR9-FWDCX-D2C8J-H872K-2YT43
-  - Windows 10 Enterprise N:DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-  - Windows 10 Education:NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-  - Windows 10 Education N:2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
-  - Windows 10 Enterprise 2015 LTSB:WNMTR-4C88C-JK8YV-HQ7T2-76DF9
-  - Windows 10 Enterprise 2015 LTSB N:2F77B-TNFGY-69QQF-B8YKP-D69TJ
-  - Windows 10 Enterprise 2016 LTSB:DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
-  - Windows 10 Enterprise 2016 LTSB N:QFFDN-GRT3P-VKWWX-X7T3R-8B639
+## Windows 10, 11 ##
+  - Windows 10,11 Professional:W269N-WFGWX-YVC9B-4J6C9-T83GX
+  - Windows 10,11 Professional N:MH37W-N47XK-V7XM9-C7227-GCQG9
+  - Windows 10,11 Enterprise:NPPR9-FWDCX-D2C8J-H872K-2YT43
+  - Windows 10,11 Enterprise N:DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+  - Windows 10,11 Education:NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+  - Windows 10,11 Education N:2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+  - Windows 10,11 Enterprise 2015 LTSB:WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+  - Windows 10,11 Enterprise 2015 LTSB N:2F77B-TNFGY-69QQF-B8YKP-D69TJ
+  - Windows 10,11 Enterprise 2016 LTSB:DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+  - Windows 10,11 Enterprise 2016 LTSB N:QFFDN-GRT3P-VKWWX-X7T3R-8B639
 ## Windows 8.1 ##
   - Windows 8.1 Professional:GCRJD-8NW9H-F2CDX-CCM8D-9D6T9
   - Windows 8.1 Professional N:HMCNV-VVBFX-7HMBH-CTY9B-B4FXY
@@ -36,6 +36,13 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 
 
 # Server #
+## Windows Server 2025 ##
+  - Windows Server 2025 Standard TVRH6-WHNXV-R9WG3-9XRFY-MY832
+  - Windows Server 2025 Datacenter D764K-2NDRG-47T6Q-P8T8W-YP6DF
+  - Windows Server 2025 Azure Edition XGN3F-F394H-FD2MY-PP6FD-8MCRC
+## Windows Server, versions 20H2, 2004, 1909, 1903, and 1809##
+  - Windows Server Datacenter6NMRW-2C8FM-D24W7-TQWMY-CWH2D
+  - Windows Server Standard N2KJX-J94YW-TQVFB-DG9YT-724CC
 ## Windows Server 2019 ##
   - Windows Server 2019 Datacenter:WMDGN-G9PQG-XVVXX-R3X43-63DFG
   - Windows Server 2019 Standard:N69G4-B89J2-4G8F4-WWYCC-J464C
