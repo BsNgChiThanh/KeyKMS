@@ -8,12 +8,12 @@
 ## Cấu trúc lệnh kích hoạt windows KMS ##
   - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
-  slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
+  slmgr.vbs /ipk <Key Windows KMS tương ứng>
   slmgr /skms kms.xspace.in
   slmgr.vbs /xpr
   slmgr /ato
   ```
-  - Thay key tương thích với windows cần kích hoạt!
+  - Demo:  slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
 ## Windows 10, 11 ##
   - Windows 10,11 Professional:W269N-WFGWX-YVC9B-4J6C9-T83GX
   - Windows 10,11 Professional N:MH37W-N47XK-V7XM9-C7227-GCQG9
@@ -122,7 +122,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
   - Lệnh call KMS active key Office:
     ```php
     cscript ospp.vbs /setprt:1688
-    cscript OSPP.VBS /inpkey:<Key Office tương thích>
+    cscript OSPP.VBS /inpkey:<Key Office KMS tương thích>
     cscript ospp.vbs /sethst:107.175.77.7
     cscript ospp.vbs /sethst:172.16.0.2
     cscript ospp.vbs /act
