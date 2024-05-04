@@ -125,6 +125,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     cscript OSPP.VBS /inpkey:<Key Office KMS tương thích>
     cscript ospp.vbs /sethst:107.175.77.7
     cscript ospp.vbs /sethst:172.16.0.2
+    cscript ospp.vbs /sethst:127.0.0.1
     cscript ospp.vbs /act
     ```
     - **Demo câu lệnh install key:   cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4**
