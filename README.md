@@ -103,6 +103,32 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 
 
 # Office #
+## Cấu trúc cấu lệnh active Office ##
+  - Lệnh chuyển đến thư mục cài đặt:
+    ```php
+    (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
+    (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
+    ```
+    - Ghi chú thay Office15 bằng các Office phù hợp dưới đây.
+      - Office14: Office 2010.
+      - Office15: Office 2013.
+      - Office16: Office 2016, 2019, 2021, 365.
+  - Lệnh install chứng chỉ Office (nếu có):
+    ```php
+    cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms
+    cscript ospp.vbs /inslic:"..\root\Licenses16\<Tên chứng chỉ>.xrm-ms"
+    ```
+    - **Demo câu lệnh: cscript ospp.vbs /inslic:"..\root\Licenses16\MondoVL_KMS_Client-ppd.xrm-ms"**
+  - Lệnh call KMS active key Office:
+    ```php
+    cscript ospp.vbs /setprt:1688
+    cscript OSPP.VBS /inpkey:<Key>
+    cscript ospp.vbs /sethst:107.175.77.7
+    cscript ospp.vbs /sethst:172.16.0.2
+    cscript ospp.vbs /act
+    ```
+    - **Demo câu lệnh install key:   cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4**
+      
 ## Office LTSC 2021 ##
   - Office LTSC Professional Plus 2021 FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
   - Office LTSC Standard 2021 KDX7X-BNVR8-TXXGX-4Q7Y8-78VT3
