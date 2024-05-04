@@ -112,7 +112,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     - Ghi chú thay Office15 bằng các Office phù hợp dưới đây.
       - Office14: Office 2010.
       - Office15: Office 2013.
-      - Office16: Office 2016, 2019, 2021, 365.
+      - Office16: Office 2016, 2019, 2021, 365, Mondo.
   - Lệnh install chứng chỉ Office (nếu có):
     ```php
     cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms
@@ -122,7 +122,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
   - Lệnh call KMS active key Office:
     ```php
     cscript ospp.vbs /setprt:1688
-    cscript OSPP.VBS /inpkey:<Key>
+    cscript OSPP.VBS /inpkey:<Key Office tương thích>
     cscript ospp.vbs /sethst:107.175.77.7
     cscript ospp.vbs /sethst:172.16.0.2
     cscript ospp.vbs /act
