@@ -130,6 +130,10 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     ```
     - **Demo câu lệnh install key:   cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4**
       
+## Office 365 Mondo 2016 ##
+  - DMTCJ-KNRKX-26982-JYCKT-P7KB6
+  - HFTND-W9MK4-8B7MJ-B6C4G-XQBR2
+
 ## Office LTSC 2021 ##
   - Office LTSC Professional Plus 2021 FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
   - Office LTSC Standard 2021 KDX7X-BNVR8-TXXGX-4Q7Y8-78VT3
