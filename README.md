@@ -104,7 +104,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 
 # Office #
 ## Cấu trúc cấu lệnh active Office ##
-  - Lệnh chuyển đến thư mục cài đặt:
+  - Chạy **cmd** bằng quyền **Run as Administrator** rồi chuyển đến thư mục cài đặt:
     ```php
     (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
     (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
@@ -129,6 +129,16 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     cscript ospp.vbs /act
     ```
     - **Demo câu lệnh install key:   cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4**
+
+## Xóa key Office: ##
+- Chạy **cmd** bằng quyền **Run as Administrator** rồi chuyển đến thư mục cài đặt:
+    
+   ```php
+    (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
+    (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
+    ```
+- Dán câu lệnh kiểm tra kích hoạt: **cscript ospp.vbs /dstatus**
+- Copy năm kí tự cuối dán vào cấu trúc rồi dán vào cmd trên cscript **ospp.vbs /unpkey:XXXXX**
 
 ## Kiểm tra sự kích hoạt của Office: ##
   - Chạy **Windows PowerShell** bằng quyền **Run as Administrator** sau đó dán câu lệnh sau vào và nhấn enter:
