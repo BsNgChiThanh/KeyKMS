@@ -129,7 +129,15 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     cscript ospp.vbs /act
     ```
     - **Demo câu lệnh install key:   cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4**
-      
+
+## Kiểm tra sự kích hoạt của Office: ##
+  - Chạy **cmd** bằng quyền **Run as Administrator** sau đó chuyển đên thư mục cài đặt bằng câu lệnh:
+    ```php
+    (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
+    (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
+    ```
+  - Dán lệnh: **cscript ospp.vbs /dstatus** enter
+
 ## Office 365 Mondo 2016 ##
   - DMTCJ-KNRKX-26982-JYCKT-P7KB6
   - HFTND-W9MK4-8B7MJ-B6C4G-XQBR2
