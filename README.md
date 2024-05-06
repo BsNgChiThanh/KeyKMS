@@ -135,7 +135,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     ```php
     Get-CimInstance SoftwareLicensingProduct| where {$_.name -like "*office*"}|select name,licensestatus
     ```
-  - ![image](https://github.com/BsNgChiThanh/KeyKMS/assets/82578024/e98514aa-4799-469f-b3b5-b8dd12823ea7)
+  - ![image](https://github.com/BsNgChiThanh/KeyKMS/assets/82578024/dcc2ce9e-0953-4b71-ab3c-ca6c4d458765)
   - Ghi chú 0: chưa kích hoạt; 1: đã kích hoạt. 
 
 ## Office 365 Mondo 2016 ##
