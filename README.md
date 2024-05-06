@@ -131,12 +131,12 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     - **Demo câu lệnh install key:   cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4**
 
 ## Kiểm tra sự kích hoạt của Office: ##
-  - Chạy **cmd** bằng quyền **Run as Administrator** sau đó chuyển đên thư mục cài đặt bằng câu lệnh:
+  - Chạy **Windows PowerShell** bằng quyền **Run as Administrator** sau đó dán câu lệnh sau vào và nhấn enter:
     ```php
-    (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
-    (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
+    Get-CimInstance SoftwareLicensingProduct| where {$_.name -like "*office*"}|select name,licensestatus
     ```
-  - Dán lệnh: **cscript ospp.vbs /dstatus** enter
+  - ![image](https://github.com/BsNgChiThanh/KeyKMS/assets/82578024/e98514aa-4799-469f-b3b5-b8dd12823ea7)
+  - Ghi chú 0: chưa kích hoạt; 1: đã kích hoạt. 
 
 ## Office 365 Mondo 2016 ##
   - DMTCJ-KNRKX-26982-JYCKT-P7KB6
