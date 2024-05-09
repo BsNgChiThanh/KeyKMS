@@ -143,11 +143,11 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 ## Kiểm tra sự kích hoạt của Office: ##
   - Chạy **Windows PowerShell** bằng quyền **Run as Administrator** sau đó dán câu lệnh sau vào và nhấn enter:
     ```php
-    Get-CimInstance SoftwareLicensingProduct| where {$_.name -like "*office*"}|select name,licensestatus
+    (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
+    (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
+    cscript ospp.vbs /dstatus   
     ```
-  - ![image](https://github.com/BsNgChiThanh/KeyKMS/assets/82578024/dcc2ce9e-0953-4b71-ab3c-ca6c4d458765)
-  - Ghi chú 0: chưa kích hoạt; 1: đã kích hoạt. 
-
+ 
 ## Office 365 Mondo 2016 ##
   - DMTCJ-KNRKX-26982-JYCKT-P7KB6
   - HFTND-W9MK4-8B7MJ-B6C4G-XQBR2
