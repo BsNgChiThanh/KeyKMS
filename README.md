@@ -14,6 +14,39 @@
   slmgr /ato
   ```
   - Demo:  slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
+
+## Windows không cho nhập Key mới: ##
+  - Với windows không cho nhập key mới, cách sửa như sau:
+    - Windows 10, Windows Server 2016 trở lên:
+      ```php
+      slmgr.vbs /rearm
+      net stop sppsvc
+      cd %windir%\system32\spp\store\2.0
+      ren tokens.dat tokens.bar
+      net start sppsvc
+      cscript.exe %windir%\system32\slmgr.vbs /rilc
+      exit
+      ```
+    - Windows 8.1, Windows Server 2012 và R2:
+      ```php
+      slmgr.vbs /rearm
+      net stop sppsvc
+      cd %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\WSLicense
+      ren tokens.dat tokens.bar
+      net start sppsvc
+      cscript.exe %windir%\system32\slmgr.vbs /rilc
+      exit
+      ```
+    - Windows 7, Windows Server 2008 và R2:
+      ```php
+      slmgr.vbs /rearm
+      net stop sppsvc
+      cd %windir%\ServiceProfiles\NetworkService\AppData\Roaming\Microsoft\SoftwareProtectionPlatform
+      ren tokens.dat tokens.bar
+      net start sppsvc
+      cscript.exe %windir%\system32\slmgr.vbs /rilc
+      exit
+      ```
 ## Windows 10, 11 ##
   - Windows 10,11 Professional:W269N-WFGWX-YVC9B-4J6C9-T83GX
   - Windows 10,11 Professional N:MH37W-N47XK-V7XM9-C7227-GCQG9
@@ -106,13 +139,14 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 ## Cấu trúc cấu lệnh active Office ##
   - Chạy **cmd** bằng quyền **Run as Administrator** rồi chuyển đến thư mục cài đặt:
     ```php
-    (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
-    (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
+    set v=16
+    if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+    if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
     ```
-    - Ghi chú thay Office15 bằng các Office phù hợp dưới đây.
-      - Office14: Office 2010.
-      - Office15: Office 2013.
-      - Office16: Office 2016, 2019, 2021, 365, Mondo.
+    - Ghi chú thay biến v như sau:
+      - v=14: Office 2010.
+      - v=15: Office 2013.
+      - v=16: Office 2016, 2019, 2021, 365, Mondo.
   - Lệnh install chứng chỉ Office (nếu có):
     ```php
     cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms
