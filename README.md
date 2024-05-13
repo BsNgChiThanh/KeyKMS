@@ -167,9 +167,10 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 ## Xóa key Office: ##
 - Chạy **cmd** bằng quyền **Run as Administrator** rồi chuyển đến thư mục cài đặt:
     
-   ```php
-    (if exist “%ProgramFiles%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles%\Microsoft Office\Office15”)
-    (if exist “%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs” cd /d “%ProgramFiles(x86)%\Microsoft Office\Office15”)
+    ```php
+    set v=16
+    if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+    if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
     ```
 - Dán câu lệnh kiểm tra kích hoạt: **cscript ospp.vbs /dstatus**
 - Copy năm kí tự cuối dán vào cấu trúc rồi dán vào cmd trên cscript **ospp.vbs /unpkey:XXXXX**
@@ -177,8 +178,9 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 ## Kiểm tra sự kích hoạt của Office: ##
   - Chạy **Windows PowerShell** bằng quyền **Run as Administrator** sau đó dán câu lệnh sau vào và nhấn enter:
     ```php
-    (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
-    (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
+    set v=16
+    if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+    if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
     cscript ospp.vbs /dstatus   
     ```
  
