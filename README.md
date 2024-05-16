@@ -5,6 +5,9 @@
   - https://technet.microsoft.com/en-us/library/dn385360(v=office.16).aspx
   - https://technet.microsoft.com/en-us/library/dn385360.aspx
   - https://technet.microsoft.com/en-us/library/ee624355(office.14).aspx
+
+## [Getcid](https://getcid.info/) ##
+## [Check key](https://khoatoantin.com/pidms), tài khoản: HQCNTH mk: MIGOI ##
 ## Cấu trúc lệnh kích hoạt windows KMS ##
   - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
