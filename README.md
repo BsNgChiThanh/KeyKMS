@@ -149,7 +149,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     - Ghi chú thay biến v như sau:
       - v=14: Office 2010.
       - v=15: Office 2013.
-      - v=16: Office 2016, 2019, 2021, 365, Mondo.
+      - v=16: Office 2016, 2019, 2021, 2024, 365, Mondo.
   - Lệnh install chứng chỉ Office (nếu có):
     ```php
     cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms
