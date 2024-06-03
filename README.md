@@ -168,7 +168,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     cscript ospp.vbs /sethst:kms.digiboy.ir
     cscript ospp.vbs /act
     ```
-    - Demo câu lệnh install key: **cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4** Và chọn một hoặc nhiều dòng lệnh về máy chủ KMS: **cscript ospp.vbs /sethst:<KMS>**
+    - Demo câu lệnh install key: **cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4** Và chọn một hoặc nhiều dòng lệnh về máy chủ KMS: **cscript ospp.vbs /sethst:(KMS)**
 
 ## Xóa key Office: ##
 - Chạy **cmd** bằng quyền **Run as Administrator** rồi chuyển đến thư mục cài đặt:
