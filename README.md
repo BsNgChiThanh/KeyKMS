@@ -16,6 +16,14 @@
   slmgr.vbs /xpr
   slmgr /ato
   ```
+
+  Xóa key windows và đưa về dùng thử 30 ngày.
+
+  ```php
+  slmgr /upk
+  slmgr /cpky
+  slmgr /rearm
+  ```
   - Demo:  slmgr.vbs /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
 
 ## Windows không cho nhập Key mới: ##
