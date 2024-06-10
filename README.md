@@ -17,7 +17,7 @@
      - sethst:127.0.0.1
      - sethst:vietproxy.vn
      - sethst:s8.now.im
-     - kms.xspace.in
+     - sethst:kms.xspace.in
      - sethst:kms.loli.best
      - sethst:kms.digiboy.ir
 ## Cấu trúc lệnh kích hoạt windows KMS ##
