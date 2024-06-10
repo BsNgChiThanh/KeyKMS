@@ -6,7 +6,7 @@
   - https://technet.microsoft.com/en-us/library/dn385360.aspx
   - https://technet.microsoft.com/en-us/library/ee624355(office.14).aspx
 
-## [Getcid](https://getcid.info/) ##
+## Getcid bấm [vào đây](https://getcid.info/) ##
 ## Check key bấm [vào đây](https://khoatoantin.com/pidms)
   - tài khoản:
     - HQCNTH
