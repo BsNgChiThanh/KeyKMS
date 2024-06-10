@@ -12,14 +12,14 @@
     - HQCNTH
     - mk: MIGOI 
 ## Một số máy chủ KMS: ##
-     - sethst:107.175.77.7
-     - sethst:172.16.0.2
-     - sethst:127.0.0.1
-     - sethst:vietproxy.vn
-     - sethst:s8.now.im
-     - sethst:kms.xspace.in
-     - sethst:kms.loli.best
-     - sethst:kms.digiboy.ir
+  1. sethst:107.175.77.7
+  2. sethst:172.16.0.2
+  3. sethst:127.0.0.1
+  4. sethst:vietproxy.vn
+  5. sethst:s8.now.im
+  6. sethst:kms.xspace.in
+  7. sethst:kms.loli.best
+  8. sethst:kms.digiboy.ir
 ## Cấu trúc lệnh kích hoạt windows KMS ##
   - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
