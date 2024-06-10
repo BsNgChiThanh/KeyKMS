@@ -8,6 +8,15 @@
 
 ## [Getcid](https://getcid.info/) ##
 ## [Check key](https://khoatoantin.com/pidms), tài khoản: HQCNTH mk: MIGOI ##
+## Máy chủ KMS: ##
+     - sethst:107.175.77.7
+     - sethst:172.16.0.2
+     - sethst:127.0.0.1
+     - sethst:vietproxy.vn
+     - sethst:s8.now.im
+     - kms.xspace.in
+     - sethst:kms.loli.best
+     - sethst:kms.digiboy.ir
 ## Cấu trúc lệnh kích hoạt windows KMS ##
   - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
@@ -173,6 +182,7 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     cscript ospp.vbs /sethst:127.0.0.1
     cscript ospp.vbs /sethst:s8.now.im
     cscript ospp.vbs /sethst:kms.loli.best
+    cscript ospp.vbs /sethst:vietproxy.vn
     cscript ospp.vbs /sethst:kms.digiboy.ir
     cscript ospp.vbs /act
     ```
