@@ -11,7 +11,7 @@
   - tài khoản:
     - HQCNTH
     - mk: MIGOI 
-## Máy chủ KMS: ##
+## Một số máy chủ KMS: ##
      - sethst:107.175.77.7
      - sethst:172.16.0.2
      - sethst:127.0.0.1
