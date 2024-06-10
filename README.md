@@ -7,7 +7,10 @@
   - https://technet.microsoft.com/en-us/library/ee624355(office.14).aspx
 
 ## [Getcid](https://getcid.info/) ##
-## [Check key](https://khoatoantin.com/pidms), tài khoản: HQCNTH mk: MIGOI ##
+## Check key bấm [vào đây](https://khoatoantin.com/pidms)
+  - tài khoản:
+    - HQCNTH
+    - mk: MIGOI 
 ## Máy chủ KMS: ##
      - sethst:107.175.77.7
      - sethst:172.16.0.2
