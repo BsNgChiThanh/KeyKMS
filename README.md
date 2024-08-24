@@ -17,9 +17,10 @@
   3. sethst:127.0.0.1
   4. sethst:vietproxy.vn
   5. sethst:s8.now.im
-  6. sethst:kms.xspace.in
-  7. sethst:kms.loli.best
-  8. sethst:kms.digiboy.ir
+  6. sethst:ms8.us.to
+  7. sethst:kms.xspace.in
+  8. sethst:kms.loli.best
+  9. sethst:kms.digiboy.ir
 ## Cấu trúc lệnh kích hoạt windows KMS ##
   - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
