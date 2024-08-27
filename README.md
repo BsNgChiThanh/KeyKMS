@@ -211,6 +211,19 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
     cscript ospp.vbs /dstatus   
     ```
+
+## Nhập ID khi Getcid ##
+  - Khi bạn kích hoạt office, office báo cần kích hoạt byphone và cho một mã ID, nếu bạn chưa biết xử ý thì rất vất vã, sau đây là cách xử lý:
+    - Copy đoạn ID thay thế vào đoạn mã code sau:
+      ```php
+      set v=16
+      if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+      if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+      cscript.exe OSPP.vbs /actcid:[Dán ID vào đây và bỏ 2 dấu ngoặc]
+      cscript.exe OSPP.vbs /act
+      ```
+    - Sau đó copy toàn bộ đoạn code trên, lưu ý thay v cho phù hợp (13: office 2010; 14: office 2013; 16: office 2016 trở lên)
+    - Chạy cmd dưới quyền **Run As Administrator** rồi dán đoạn code ở trên vào là xong!
  
 ## Office 365 Mondo 2016 ##
   - DMTCJ-KNRKX-26982-JYCKT-P7KB6
