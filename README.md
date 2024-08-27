@@ -224,6 +224,14 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
       ```
     - Sau đó copy toàn bộ đoạn code trên, lưu ý thay v cho phù hợp (13: office 2010; 14: office 2013; 16: office 2016 trở lên)
     - Chạy cmd dưới quyền **Run As Administrator** rồi dán đoạn code ở trên vào là xong!
+    - Demo:
+      ```php
+      set v=16
+      if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+      if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+      cscript.exe OSPP.vbs /actcid:118411166631329701656602528123175651422083942133200607649178800
+      cscript.exe OSPP.vbs /act
+      ```
  
 ## Office 365 Mondo 2016 ##
   - DMTCJ-KNRKX-26982-JYCKT-P7KB6
