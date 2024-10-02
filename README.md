@@ -173,12 +173,12 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
       - v=15: Office 2013.
       - v=16: Office 2016, 2019, 2021, 2024, 365, Mondo.
 
-  **Hoặc dán trực tiếp câu lệnh sau đây, không cần điền ``v``**
+    **Hoặc dán trực tiếp câu lệnh sau đây, không cần điền ``v``**
 
-  ```php
-  for %a in (4,5,6) do (if exist "%ProgramFiles%\Microsoft Office\Office1%a\ospp.vbs" (cd /d "%ProgramFiles%\Microsoft Office\Office1%a")
-  if exist "%ProgramFiles% (x86)\Microsoft Office\Office1%a\ospp.vbs" (cd /d "%ProgramFiles% (x86)\Microsoft Office\Office1%a"))
-  ```
+    ```php
+    for %a in (4,5,6) do (if exist "%ProgramFiles%\Microsoft Office\Office1%a\ospp.vbs" (cd /d "%ProgramFiles%\Microsoft Office\Office1%a")
+    if exist "%ProgramFiles% (x86)\Microsoft Office\Office1%a\ospp.vbs" (cd /d "%ProgramFiles% (x86)\Microsoft Office\Office1%a"))
+    ```
   
   - Lệnh install chứng chỉ Office (nếu có):
     ```php
