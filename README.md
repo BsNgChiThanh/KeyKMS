@@ -31,7 +31,7 @@
   slmgr /ato
   ```
 
-  - Xóa key windows và đưa về dùng thử 30 ngày.
+  - **Xóa key windows và đưa về dùng thử 30 ngày.**
 
   ```php
   slmgr /upk
