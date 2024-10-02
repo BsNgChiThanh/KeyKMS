@@ -21,6 +21,7 @@
   7. sethst:kms.xspace.in
   8. sethst:kms.loli.best
   9. sethst:kms.digiboy.ir
+  10. sethst:kms5.msguides.com
 ## Cấu trúc lệnh kích hoạt windows KMS ##
   - Chạy **cmd** bầng quyền **Run as Administrator** rồi dán câu lệnh dưới đây vào.
   ```php
