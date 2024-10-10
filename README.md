@@ -185,6 +185,8 @@ Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
     cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms
     cscript ospp.vbs /inslic:"..\root\Licenses16\<Tên chứng chỉ>.xrm-ms"
     ```
+  - Chứng chỉ iffice nằm trong đường dẫn: **C:\Program Files (x86)\Microsoft Office\root\Licenses16**
+    
     - **Demo câu lệnh: cscript ospp.vbs /inslic:"..\root\Licenses16\MondoVL_KMS_Client-ppd.xrm-ms"**
   - Lệnh call KMS active key Office:
     ```php
