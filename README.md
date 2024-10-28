@@ -156,8 +156,7 @@
   - Windows Server 2008 HPC:RCTX3-KWVHP-BR6TB-RB6DM-6X7HP
   - Windows Server 2008 Datacenter:7M67G-PC374-GR742-YH8V4-TCBY3
   - Windows Server 2008 Datacenter without Hyper-V:22XQ2-VRXRG-P8D42-K34TD-G3QQC
-  - Windows Server 2008 for Itanium-Based Systems:4DWFP-JF3DJ-B7DTH-78FJB-PDRHK# KeyKMS
-
+  - Windows Server 2008 for Itanium-Based Systems:4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
 
 # Office #
 ## Cấu trúc cấu lệnh active Office ##
