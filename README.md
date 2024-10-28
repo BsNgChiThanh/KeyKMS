@@ -109,8 +109,7 @@
   - Windows Vista Business:YFKBB-PQJJV-G996G-VWGXY-2V3X8
   - Windows Vista Business N:HMBQG-8H2RH-C77VX-27R82-VMQBT
   - Windows Vista Enterprise:VKK3X-68KWM-X2YGT-QR4M6-4BWMV
-Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
-
+  - Windows Vista Enterprise N:VTC42-BM838-43QHV-84HX6-XJXKV
 
 # Server #
 ## Windows Server 2025 ##
